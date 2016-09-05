@@ -1,0 +1,54 @@
+<!-- content of home page left pane -->
+<div class="left">
+	<div class="upper">
+
+		<div class="sachin-pro">
+			<img ng-src="{{details.image}}">
+		</div>
+		<h3> {{details.name}}</h3>{{details.full_name}}
+	</div>
+
+	<!-- side nav bar -->
+	<div class="bottom">
+		<ul>
+			<li>
+				<span>Title:</span> {{details.title}}
+			</li>
+			<li>
+				<span>Sport:</span> {{details.sports}}
+			</li>
+			<li>
+				<span>Team:</span> {{details.team}}
+			</li>
+			<li>
+				<span>Role:</span> {{details.role}}
+			</li>
+			<li>
+				<span>Experience:</span> {{details.years}}
+			</li>
+			<li>
+				<span>Total Matches:</span> {{matches_number(alldata)}}
+			</li>
+			<li>
+				<span>Total Runs:</span> {{total_runs(alldata)}}
+			</li>
+			<li>
+				<span>Total Wickets: </span> {{total_wickets(alldata)}}
+			</li>
+			<li>
+				<span>Total Wins: </span> {{total_wins(alldata)}}
+			</li>
+			<li>
+				<span>Centuries(100s): </span> {{centuries(alldata)}}
+			</li>
+		</ul>
+	</div>
+
+	<!-- background styling -->
+	<div class="left-back">
+	</div>
+
+	<div class="socialcops-logo">
+		<img src="images/logo.png"></div>
+
+</div>

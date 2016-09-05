@@ -1,0 +1,53 @@
+<!-- left-pane for visual-1 -->
+<div class="left left-visuals">
+	<div class="upper"><br>
+		<span>Select any option to analyze {{details.name}}</span>
+	</div>
+
+	<!-- side nav bar -->
+	<div class="bottom">
+		<ul>
+			<li class="dark">
+				<a href="#/visual/1">Opposition Vs Run</a>
+			</li>
+			<li class="light">
+				<a href="#/visual/2">Won & Lost</a>
+			</li>
+			<li class="light">
+				<a href="#/visual/3">Comparison with players</a>
+			</li>	
+			<li class="light">
+				<a href="#/">Home</a>
+			</li>
+
+
+		</ul>
+	</div>
+	
+
+
+	<div class="socialcops-logo">
+		<img src="images/logo.png"></div>
+
+</div>
+
+<!-- right pane for visual 1 -->
+<div class="right visual-right">
+
+
+	<h1>Opposition vs Runs</h1>
+	<!-- styling axis for graphs -->
+	<div class="axis-def">
+
+		<h4><span>X-axis</span> Total Run Scored</h4>
+		<h4><span>Y-axis </span>Team Name</h4>
+	</div>
+
+	<!-- calling directive of chart 1 -->
+	<first-chart></first-chart>
+
+	<!-- conclusion -->
+	<p>
+		"Sachin Tendulkar scored 3113 runs against Sri Lanka in {{count_matches(data_1,"v Sri Lanka")}} matches with average {{3113/count_matches(data_1,"v Sri Lanka")| number:2}} and 3077 runs against Australia in {{count_matches(data_1,"v Australia")}} matches with average of {{3077/count_matches(data_1,"v Australia")|number:2}}"
+	</p>
+</div>

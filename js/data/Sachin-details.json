@@ -1,0 +1,10 @@
+{
+	"name": "Sachin Tendulkar",
+	"full_name": "Sachin Ramesh Tendulkar",
+	"title": "Player",
+	"sports": "Cricket",
+	"team": "India",
+	"image": "images/Sachin_profile.jpg",
+	"role": "Batsman",
+	"years": "26 yrs"
+}

@@ -1,0 +1,20 @@
+<!-- making table structure for visual 3 -->
+<div class="table-comp">
+
+	<ul class="table-head">
+		<li>Name</li>
+		<li>Team</li>
+		<li>Runs</li>
+		<li>Matches</li>
+		<li>Won</li>
+		<li>Centuries(100s)</li>
+		<li>Fifties(50s)</li>
+	</ul>
+
+	<div class="outer" ng-repeat="x in data_comp | orderBy:'-runs'">
+		<div class="inner" ng-repeat="y in x">
+			{{y}}
+		</div>
+	</div>
+
+</div>
